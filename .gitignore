@@ -1,9 +1,6 @@
 # ignore database files
 *.db
 
-# ignore sensitive info
-/utils/admin.php
-
 # ignore outdated files
 /secret/post_index.php
 /contact/table-based.php
