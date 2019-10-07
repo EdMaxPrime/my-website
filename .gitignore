@@ -1,0 +1,18 @@
+# ignore database files
+*.db
+
+# ignore sensitive info
+/utils/admin.php
+
+# ignore outdated files
+/secret/post_index.php
+/contact/table-based.php
+
+# ignore local test files
+/data/uploads/
+
+# ignore vendore files (things not written by me)
+/assets/rainbow-custom.min.js
+/assets/reqwest.min.js
+/assets/kimble-light.css
+/assets/behave.js
