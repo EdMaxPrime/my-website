@@ -1,0 +1,109 @@
+/* CARDS 
+   CARDS
+   CARDS
+   CARDS
+*/
+
+/* For bigger screens */
+@media screen and (min-width: 501px) {
+    div.card {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px #ccc;
+        margin: 20px 10%;
+        font-family: Raleway, sans-serif;
+    }
+}
+
+/* For smaller screens */
+@media screen and (max-width: 500px) {
+    div.card {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px #ccc;
+        margin: 20px 0px;
+        font-family: Raleway, sans-serif;
+    }
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0px;
+}
+
+.card-subtitle {
+    font-family: inherit;
+    color: #999;
+    display: block;
+    margin: 0px;
+    margin-top: -10px;
+    padding-left: 1em;
+}
+
+div.card-body {
+    color: black;
+    font-family: inherit;
+    padding: 1em;
+    display: flex;
+}
+
+div.card-body-left {
+    padding-right: 10px;
+}
+div.card-body-right {
+    padding-left: 10px;
+}
+
+div.card-footer {
+    background-color: #F0F0F0;
+    padding: 10px;
+    text-align: center;
+}
+
+div.card a {
+    color: #0281DB;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+div.card a:hover {
+    color: #45ABF5;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+}
+
+a.card-link {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+a.card-link:hover {
+    color: #3EC3DE;
+}
+
+a.card-link-left {
+    display: inline-block;
+    width: 48%;
+    border-right: solid 2px #0281DB;
+    margin: 0px;
+}
+
+a.card-link-right {
+    display: inline-block;
+    width: 48%;
+    border-left: solid 2px #0281DB;
+    margin: 0px;
+}

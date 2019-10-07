@@ -1,0 +1,82 @@
+body {
+    background-color: #728C77;
+    font-family: 'Lato', sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    /*background-color: #FFFFDF;*/
+    background: linear-gradient(white, 15%, rgb(235, 235, 235) 20%, 35%, rgb(182, 182, 182) 40%, 70%, rgb(85, 95, 75) 80%);
+    margin-top: 0px;
+}
+
+#header div {
+    position: absolute;
+    width: 100%;
+}
+
+#title {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Lato', serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* For big devices, show bigger green margin */
+@media screen and (min-width: 501px) {
+#body {
+    position: relative;
+    background-color: white;
+    margin: 20px 10% 20px 10%;
+    padding: 1em;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+}
+}
+
+/* For small devices, show smaller green margins and bigger white ones */
+@media screen and (max-width: 500px) {
+#body {
+    position: relative;
+    background-color: white;
+    margin: 20px 5px 20px 5px;
+    padding: 2em;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+}
+#title {
+    font-size: 2em;
+}
+}
+
+.top {
+    height: 400px;
+}
+
+/* NAVIGATION BAR
+   NAVIGATION BAR
+   NAVIGATION BAR
+   NAVIGATION BAR
+*/
+
+div.navbar {
+    text-align: center;
+}
+
+a.navigation {
+    display: inline-block;
+    margin: 0px;
+    padding: 10px;
+    color: #222;
+    text-decoration: none;
+}
+
+a.navigation:hover {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    background-color: white;
+}

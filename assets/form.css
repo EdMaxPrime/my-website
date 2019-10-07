@@ -1,0 +1,83 @@
+.form-description {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #737373;
+    margin-bottom: 2em;
+}
+
+.form-fancy input, .form-fancy textarea {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    outline: none;
+    border: solid 1px #BABABA;
+}
+
+.form-fancy input[type=submit] {
+    background-color: #30292F;
+    color: #FCFCFC;
+}
+
+.form-fancy input[type=submit]:active, .form-fancy input[type=submit]:hover {
+    background-color: #3F4045;
+}
+
+.form-fancy label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+/* Horizontal checkboxes or radio buttons */
+
+.form-fancy .horizontal-options {
+    display: block;
+    padding: 5px;
+}
+
+.form-fancy .horizontal-options input {
+    display: none;
+}
+
+.form-fancy .horizontal-options label {
+    display: inline-block;
+    margin-bottom: none;
+    font-weight: normal;
+    padding: 4px 11px;
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.form-fancy .horizontal-options label:hover {
+    background-color: #FFE6C6;
+}
+
+.form-fancy .horizontal-options input:checked + label {
+    background-color: #FFA630;
+}
+
+/* Status Messages */
+div.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+div.error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebcccc;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}

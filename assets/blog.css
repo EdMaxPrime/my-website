@@ -1,0 +1,134 @@
+h1.blog-title {
+    text-align: center;
+}
+
+.author {
+    font-style: italic;
+}
+
+.blog-tag {
+    display: inline-block;
+    background-color: #BCFEFF;
+    color: #0281DB;
+    padding: 4px 11px;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.blog-tag:hover {
+    color: #45ABF5;
+}
+
+.blog-tag::before {
+    content: "#";
+}
+
+.blog-link-invisible {
+    text-decoration: none;
+    color: inherit;
+}
+
+#blog-content strong {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Code blocks */
+
+#blog-content div.code-container {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+#blog-content pre code {display: block;}
+
+/*
+#blog-content code {
+    display: block;
+    background-color: #eee;
+    padding: 5px;
+    display: inline-block;
+    font-size: 1em;
+}
+*/
+
+/* Table stuff */
+
+#blog-content table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #49BEAA;
+    border-radius: 10px;
+}
+
+#blog-content table td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#blog-content table tr {
+    border-bottom: 1px solid #49BEAA;
+}
+
+#blog-content table tr:hover {
+    background-color: #EEF9F7;
+}
+
+#blog-content table tr:nth-child(even) {
+    background-color: #EEF9F7 /*#9BDBD0*/;
+}
+
+#blog-content table tr:nth-child(odd) {
+    background-color: #CDEDE7;
+}
+
+#blog-content table th {
+    background-color: #49BEAA;
+    color: white;
+}
+
+/* LINKS */
+
+#blog-content a {
+    color: #456990;
+}
+
+/* Images */
+
+#blog-content .centered {
+    text-align: center;
+}
+
+img.inline-small {
+    height: 1em;
+    display: inline-block;
+}
+
+/*
+    TABLE OF CONTENTS
+    TABLE OF CONTENTS
+    TABLE OF CONTENTS
+    TABLE OF CONTENTS
+    Inspired by https://www.tipsandtricks-hq.com/simple-table-of-contents-toc-using-pure-html-and-css-code-9217
+*/
+.tableOfContents-container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    padding-bottom: 1em;
+    padding-right: 20px;
+}
+
+.tableOfContents-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.tableOfContents-container li, .tableOfContents-container ol, .tableOfContents-container ol li{
+    list-style: outside decimal !important;
+}
+
+.tableOfContents-container a {
+    text-decoration: none;
+    color: #0281DB !important;
+}

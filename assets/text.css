@@ -1,0 +1,7 @@
+#body a {
+    color: #829298;
+}
+
+#body a:hover, #body a:active {
+    color: #82D4BB;
+}

@@ -1,0 +1,70 @@
+body {
+    background-color: #dfffdf;
+    font-family: 'Lato', sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: #FFFFDF;
+    margin-top: 0px;
+}
+
+#header div {
+    position: absolute;
+    width: 100%;
+}
+
+#title {
+    text-align: center;
+    font-size: 4em;
+    font-family: Raleway, serif;
+}
+
+#body {
+    background-color: white;
+    margin: 20px 10% 20px 10%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* NAVIGATION BAR
+   NAVIGATION BAR
+   NAVIGATION BAR
+   NAVIGATION BAR
+*/
+
+div.nav-container {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #FFFFDF;
+}
+
+ul.navbar {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul.navbar li {
+    display: inline-block;
+    padding: 10px;
+}
+
+ul.navbar li a {
+    text-decoration: none;
+    color: blue;
+}
+
+ul.navbar li.here {
+    font-weight: bold;
+}
+
+canvas#animation {
+    width: 100%;
+    height: 400px;
+}
